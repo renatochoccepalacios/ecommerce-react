@@ -3,6 +3,7 @@ import "./index.css";
 function NavBar() {
     return (
         <nav>
+            <a href=""></a>
             <ul>
                 <li></li>
                 <li></li>
