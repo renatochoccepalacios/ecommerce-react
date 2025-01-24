@@ -1,0 +1,37 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: #fff;
+    min-height: 10vh;
+}
+
+.btn-cart {
+    background-color: red;
+    width: 2rem;
+}
+
+
+.buttom-cart {
+    color: white;
+    position: relative;
+
+}
+
+.buttom-cart svg {
+    width: 80px;
+    height: 70px;
+
+}
+
+.cantidad-cart {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: red;
+    padding: 0 9px;
+    border-radius: 60%;
+    font-size: 1.2rem;
+}
