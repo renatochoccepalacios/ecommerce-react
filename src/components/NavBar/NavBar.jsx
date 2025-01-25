@@ -5,12 +5,20 @@ function NavBar(props) {
     const { img, contador } = props;
 
     return (
-        <nav>
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
+        <nav className="navbar">
+            <a href="">
+                <img src={img} alt="" />
+            </a>
+            <ul className="nav-menu">
+                <li>
+                    <a href="">Detalles</a>
+                </li>
+                <li>
+                    <a href="">Colecciones</a>
+                </li>
+                <li>
+                    <a href="">Género</a>
+                </li>
             </ul>
 
             <button className="buttom-cart">
@@ -21,8 +29,6 @@ function NavBar(props) {
             </button>
 
         </nav>
-
-
     )
 }
 
