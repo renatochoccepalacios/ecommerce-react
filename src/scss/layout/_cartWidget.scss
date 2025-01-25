@@ -1,0 +1,25 @@
+.cart-widget {
+    color: #000;
+    position: relative;
+
+    svg {
+        width: 80px;
+        height: 70px;
+
+    }
+
+    .cantidad-cart {
+        position: absolute;
+    color: #fff;
+    top: 0;
+    right: 0;
+    background: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 60%;
+    font-size: 1.2rem;
+    }
+}

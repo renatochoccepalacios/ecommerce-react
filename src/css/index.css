@@ -1,0 +1,130 @@
+@charset "UTF-8";
+/* Reset moderno */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Quitar decoraciones y establecer herencia */
+body, h1, h2, h3, h4, h5, h6, p, ol, ul, figure, blockquote, dl, dd {
+  margin: 0;
+  padding: 0;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+button, input, select, textarea {
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+textarea {
+  resize: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  line-height: 1.5;
+}
+
+body {
+  font-family: Arial, sans-serif; /* Cambiar por la fuente que uses */
+  line-height: 1.5;
+  min-height: 100vh;
+  background-color: #fff; /* Fondo base */
+  color: #000; /* Color de texto base */
+}
+
+hr {
+  border: 0;
+  border-top: 1px solid #ccc;
+}
+
+/* Quitar rellenos en el viewport para móviles */
+body, html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  color: #000;
+  min-height: 10vh;
+  box-shadow: 21px -8px 79px 25px rgba(163, 177, 198, 0.5), -2px 19px 59px rgba(255, 255, 255, 0.6);
+}
+.navbar a img {
+  width: 120px;
+}
+.navbar .nav-menu {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+.navbar .nav-menu li a {
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.cart-widget {
+  color: #000;
+  position: relative;
+}
+.cart-widget svg {
+  width: 80px;
+  height: 70px;
+}
+.cart-widget .cantidad-cart {
+  position: absolute;
+  color: #fff;
+  top: 0;
+  right: 0;
+  background: red;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 60%;
+  font-size: 1.2rem;
+}
+
+.itemListContainer {
+  display: flex;
+  text-align: center;
+  padding: 20px;
+  justify-content: center;
+  padding: 3rem 2rem;
+}
+
+/*# sourceMappingURL=index.css.map */
