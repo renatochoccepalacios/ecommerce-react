@@ -1,5 +1,6 @@
 .navbar {
-    display: flex;
+    display: grid;
+    grid-template-columns:100px 400px 100px;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
@@ -8,7 +9,7 @@
     box-shadow: 21px -8px 79px 25px rgb(86 104 131 / 50%), -2px 19px 59px rgba(255, 255, 255, 0.6);
     a {
         img {
-            width: 120px;
+            // width: 120px;
         }
     }
 
