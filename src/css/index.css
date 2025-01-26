@@ -98,6 +98,21 @@ img {
   text-transform: uppercase;
   font-size: 1rem;
   font-weight: 600;
+  padding: 0.5rem 0;
+  position: relative;
+}
+.navbar .nav-menu li a::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background-color: #000;
+  transition: width 0.3s ease;
+}
+.navbar .nav-menu li a:hover::after {
+  width: 100%;
 }
 
 .cart-widget {

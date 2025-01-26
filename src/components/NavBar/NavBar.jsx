@@ -2,12 +2,12 @@ import CartWidget from "../CartWidget/CartWidget";
 
 function NavBar(props) {
 
-    const { img } = props;
+    const { imgBrand } = props;
 
     return (
         <nav className="navbar">
             <a href="">
-                <img src={img} alt="" />
+                <img src={imgBrand} alt="" />
             </a>
             <ul className="nav-menu">
                 <li>

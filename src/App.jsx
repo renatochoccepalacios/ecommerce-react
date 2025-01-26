@@ -5,7 +5,7 @@ import LogoNike from "./img/logo-nike.png";
 function App() {
     return (
         <div>
-            <NavBar img={LogoNike} />
+            <NavBar imgBrand={LogoNike} />
             <ItemListContainer greeting="Bienvenidos a la tienda de Nike" />
         </div>
     );
