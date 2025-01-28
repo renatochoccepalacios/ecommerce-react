@@ -116,26 +116,32 @@ img {
 }
 
 .cart-widget {
-  color: #000;
   position: relative;
-}
-.cart-widget svg {
-  /* width: 80px;
-  height: 70px; */
-}
-.cart-widget .cantidad-cart {
-  position: absolute;
-  color: #fff;
-  top: 0;
-  right: 0;
-  background: red;
+  width: 70px;
+  height: 60px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.cart-widget svg {
+  width: 60px;
+  height: 60px;
+}
+.cart-widget .cantidad-cart {
+  position: absolute;
+  top: -8px;
+  right: -8px;
+  background: red;
+  color: white;
   width: 30px;
   height: 30px;
-  border-radius: 60%;
-  font-size: 1.2rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+  font-weight: bold;
+  z-index: 10;
 }
 
 .itemListContainer {
